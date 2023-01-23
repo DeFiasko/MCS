@@ -116,7 +116,7 @@ a:hover {
 }
 
 .pink-tablet {
-    height: 280px;
+    width: 1040px;
     display: flex;
     justify-content: center;
 
@@ -141,8 +141,7 @@ a:hover {
 }
 
 .bottle-grid {
-    width: 1200px;
-    height: 800px;
+    width: 1040px;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -153,52 +152,42 @@ a:hover {
     width: 400px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .bottle-two {
     width: 400px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .bottle-three {
     width: 400px;
     display: flex;
     justify-content: center;
-}
-
-.bottle-names {
-    height: 80px;
-    padding: 0;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-}
-
-.bottle-names-grid {
-    width: 1200px;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    gap: 50px;
-    font-size: 25px;
+    flex-direction: column;
 }
 
 .bottle-one-name {
     text-align: center;
+    font-size: larger;
     position: relative;
-    left: 70px;
+    top: 15px;
 }
 
 .bottle-two-name {
     text-align: center;
+    font-size: larger;
+    position: relative;
+    top: 15px;
 }
 
 .bottle-three-name {
     text-align: center;
+    font-size: larger;
     position: relative;
-    right: 70px;
+    top: 15px;
 }
 
 .pink-tablet > version-two {
