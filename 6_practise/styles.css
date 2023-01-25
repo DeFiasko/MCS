@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    height: 100px;
+    padding: 33px;
+    background-color: #0000FF;
+
+    font-size: 25px;
+    font-family: 'Helvetica';
+    color: aliceblue;
+}
+
+.feed {
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    width: 1440px;
+    padding: 50px;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+
+    font-size: 50px;
+}
+
+.feed-1 {
+    width: 600px;
+    height: 300px;
+    border: 5px solid #000;
+    text-align: center;
+}
+
+.feed-2 {
+    width: 600px;
+    height: 300px;
+    border: 5px solid #000;
+    text-align: center;
+}
+
+.feed-3 {
+    width: 600px;
+    height: 300px;
+    border: 5px solid #000;
+    text-align: center;
+}
+
+.feed-4 {
+    width: 600px;
+    height: 300px;
+    border: 5px solid #000;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 33px;
+    background-color: #0000FF;
+
+    font-size: 25px;
+    font-family: 'Helvetica';
+    color: aliceblue;
+}
+
+
+/* Макет для мобильных */
+@media only screen and (max-width: 400px) {
+    .feed-1,
+    .feed-2,
+    .feed-3,
+    .feed-4 {
+        width: 50%;
+        font-size: 50%;
+    }
+}
+
+/* Макет для планшетов */
+@media only screen and (min-width: 401px) and (max-width: 1440px) {
+
+} 
+
+/* Макет для десктопов */
+@media only screen and (min-width: 1441px) {
+}
